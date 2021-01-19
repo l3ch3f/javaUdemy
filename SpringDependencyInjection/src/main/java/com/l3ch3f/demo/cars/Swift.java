@@ -1,10 +1,8 @@
 package com.l3ch3f.demo.cars;
 
-import org.springframework.stereotype.Component;
 
 import interfaces.Car;
 
-@Component
 public class Swift implements Car {
 
 	@Override
