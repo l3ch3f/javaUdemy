@@ -1,0 +1,13 @@
+package com.l3ch3f.demo;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class DependencyInjectionApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
