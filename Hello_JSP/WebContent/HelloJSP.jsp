@@ -31,6 +31,7 @@
 	<%=
 	message()
 	%>
+	<div>HALLOOOO</div>
 
 </body>
 </html>
