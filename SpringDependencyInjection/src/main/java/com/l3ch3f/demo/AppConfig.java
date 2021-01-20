@@ -5,7 +5,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 import com.l3ch3f.demo.cars.Corola;
-import com.l3ch3f.demo.cars.Engine;
+import com.l3ch3f.demo.cars.EngineType;
 import com.l3ch3f.demo.cars.Swift;
 
 
@@ -23,8 +23,8 @@ public class AppConfig {
 		return new Swift();
 	}
 	
-	@Bean("Engine")
-	public Engine engine() {
-		return new Engine();
+	@Bean("EngineType")
+	public EngineType engineType() {
+		return new EngineType("V8");
 	}
 }
