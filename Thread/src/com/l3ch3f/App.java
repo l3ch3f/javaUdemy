@@ -21,7 +21,7 @@ public class App {
 
 		MyCounter counter1 = new MyCounter(1);
 		MyCounter counter2 = new MyCounter(2);
-
+//		testing
 		counter1.countMe();
 		System.out.println("**********************");
 		counter2.countMe();
