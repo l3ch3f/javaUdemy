@@ -7,10 +7,10 @@ class MyCounter {
 		super();
 		this.threadNo = threadNo;
 	}
-	
+
 	public void countMe() {
-		for(int i = 1; i<=9;i++) {
-			System.out.println("The value if i is: "+i+"and the thread number is: "+threadNo);
+		for (int i = 1; i <= 9; i++) {
+			System.out.println("The value if i is: " + i + "and the thread number is: " + threadNo);
 		}
 	}
 }
@@ -18,13 +18,14 @@ class MyCounter {
 public class App {
 
 	public static void main(String[] args) {
-		
+
 		MyCounter counter1 = new MyCounter(1);
 		MyCounter counter2 = new MyCounter(2);
 
 		counter1.countMe();
 		System.out.println("**********************");
 		counter2.countMe();
+
 	}
 
 }
