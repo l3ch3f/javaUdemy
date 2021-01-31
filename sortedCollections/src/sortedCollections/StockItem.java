@@ -3,7 +3,7 @@ package sortedCollections;
 public class StockItem implements Comparable<StockItem> {
 	private final String name;
 	private double price;
-//	private int quantityStock = 0; // can be init later
+	private int quantityStock; // can be init later
 
 	public StockItem(String name, double price) {
 		this.name = name;
@@ -33,7 +33,7 @@ public class StockItem implements Comparable<StockItem> {
 			
 	}
 
-	public int getQuantityStock() {
+	public int quantityInStock() {
 		return quantityStock;
 	}
 
