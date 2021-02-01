@@ -9,6 +9,7 @@ public class Main {
 		anotherThread.start();
 		
 		System.out.println("Hello from the main thread");
+		
 	}
 
 }
