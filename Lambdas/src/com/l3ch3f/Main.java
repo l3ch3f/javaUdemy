@@ -10,7 +10,7 @@ public class Main {
 //		}
 //	}).start();
 		
-		// Lambda
+		// Lambda focusing on code that we like to run.
 		new Thread(()-> System.out.println("Printing from the Runnable")).start();
 
 }
